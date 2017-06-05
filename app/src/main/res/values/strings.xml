@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">5kamp</string>
+
+    <string name="toolbar_menu_reset">Radera spelet</string>
+    <string name="toolbar_menu_add_friend">Lägg till vän</string>
+    <string name="toolbar_menu_add_game">Lägg till spel</string>
+</resources>
