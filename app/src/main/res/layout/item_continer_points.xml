@@ -4,15 +4,18 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:background="@drawable/stroke_shape"
-    android:onClick="onClickItemContiner">
+    >
 
-    <TextView
+    <EditText
         android:id="@+id/item_text"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="E"
+        android:text="0"
         android:gravity="center"
-        android:padding="5dp"/>
+        android:padding="5dp"
+        android:inputType="number"
+        android:selectAllOnFocus="true"
+        android:imeOptions="actionDone"/>
 
 
 </LinearLayout>
